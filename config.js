@@ -3,41 +3,43 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'sooj-j',
+  subtitle: '',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 5,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Blog',
       path: '/'
     },
     {
       label: 'About me',
       path: '/pages/about'
     },
+    /*
     {
       label: 'Contact me',
       path: '/pages/contacts'
     }
+     */
   ],
   author: {
-    name: 'John Doe',
+    name: 'sooj-j',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'newbie developer',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'jsujin9603@gmail.com',
+      // facebook: '#',
+      // telegram: '#',
+      // twitter: '#',
+      github: 'sooj-j',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'sujin-jang-7b1a5b174',
+      // instagram: '#',
       line: '',
       gitlab: '',
       weibo: '',
