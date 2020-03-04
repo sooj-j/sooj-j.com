@@ -204,5 +204,17 @@ module.exports = {
     },
     'gatsby-plugin-flow',
     'gatsby-plugin-optimize-svgs',
+    {
+      resolve: 'gatsby-plugin-prefetch-google-fonts',
+      options: {
+        fonts: [
+          {
+            family: 'Noto Sans KR',
+            subsets: ['korean'],
+            variants: ['100', '400', '700']
+          }
+        ],
+      },
+    },
   ]
 };
