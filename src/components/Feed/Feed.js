@@ -26,7 +26,8 @@ const Feed = ({ edges }: Props) => (
           <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>{edge.node.frontmatter.title}</Link>
         </h2>
         <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}</p>
-        <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Read</Link>
+        <p className={styles['feed__item-date']}>{moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}</p>
+        <hr className={styles['feed__item-hr']} />
       </div>
     ))}
   </div>
